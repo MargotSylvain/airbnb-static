@@ -13,3 +13,11 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+html body{
+  font-family:  $font-family-sans-serif ;
+// $font-size-base:          $base-size;
+// $line-height-base:        $base-height;
+// $headings-font-family:    $header-font;
+}
+

@@ -1,6 +1,6 @@
 /* Main class */
 .navbar-wagon {
-  font-family:  $base-font;
+  // font-family:  $base-font;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
@@ -55,14 +55,14 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: $red;
   color: white;
   font-size: 14px;
-  border: 2px solid #D23333;
+  border: 2px solid $red;
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: #D23333;
+  background: $red;
   border-color: #ac2626;
 }
 
